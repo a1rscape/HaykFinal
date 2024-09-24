@@ -1,0 +1,49 @@
+.header_main {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.header_main h1 {
+    text-transform: uppercase;
+}
+
+.header_main ul {
+    display: flex; 
+    width: 50%; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_main ul li {
+    list-style-type: none;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+}
+
+.header_main ul li:hover{
+    color: rgb(225, 96, 55);
+}
+
+.header_main button {
+    padding: 13px 2rem;
+    outline: none;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: .3s ease-out;
+}
+
+.header_main button:hover {
+    color: rgb(225, 96, 55);
+}
